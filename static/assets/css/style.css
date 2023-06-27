@@ -23,6 +23,8 @@ h6 {
   font-family: "Muli", sans-serif;
 }
 
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -55,6 +57,34 @@ h6 {
   visibility: visible;
   opacity: 1;
 }
+
+/*------------------------------------------------------
+# Whatsapp
+------------------------------------------------------*/
+
+.whatsapp-container {
+  position: fixed;
+  top: 30%;
+  right: 20px; /* Ajusta esta propiedad para establecer la distancia desde el borde derecho de la pantalla */
+  transform: translate(-50%, -50%);
+  z-index: 9999; /* Ajusta este valor para asegurar que el icono esté en el nivel superior */
+  background-color: #25D366;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.whatsapp-container a {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Disable AOS delay on mobile
@@ -139,7 +169,7 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 70px;
 }
 
 .scrolled-offset {
@@ -2180,3 +2210,4 @@ section {
   color: #fff;
   text-decoration: none;
 }
+

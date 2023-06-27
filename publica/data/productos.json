@@ -1,0 +1,278 @@
+{
+    "categorias": [
+      {
+        "nombre": "CABLES",
+        "productos": [
+          {
+            "id": 1,
+            "nombre": "Cable tipo taller",
+            "url_proyecto": "www.example.com",
+            "descripcion": "Cable de cobre con aislación de pvc. Para instalaciones móviles, industriales, domésticas y aparatos portátiles en general con tensión nominal de 300/500 vca 70º.Cumple con norma IRAM NM 247-5. No apto para uso en aparatos de calefacción.",
+            "imagen": "cables/taller.jpg",
+            "atributos": [
+              {
+                "nombre": "Milimetros  ",
+                "valores": ["Selecciona","2X1MM", "2X0.75MM", "2X1.5MM", "2X2.5MM","3X0.75","3X1MM","3X2.5MM"]
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "nombre": "Cable tipo unipolar",
+            "url_proyecto": "www.example.com",
+            "descripcion": "Cable de cobre con aislación de pvc. 450/750v inclusive para instalaciones fijas interiores en inmuebles y cableado de aparatos eléctricas cumple con norma IRAM-NM 247-3 designación 247 NM 02-C4-BWF-B",
+            "imagen": "cables/unipolar.jpg",
+            "atributos": [
+              {
+                "nombre": "Color",
+                "valores": ["Selecciona","rojo", "verde", "negro", "azul"]
+              },
+              {
+                "nombre": "Milimetros",
+                "valores": ["Selecciona","1MM", "2.5MM", "4MM","6MM"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "CAJAS y GABINETES",
+        "url_proyecto": "www.example.com",
+        "productos": [
+          {
+            "id": 3,
+            "nombre": "CAJA RECTANGULAR DE CHAPA AG",
+            "descripcion": "Caja Rectangular Chapa Homologada Iram. Ancho 57 mm, Largo 100 mm, Profundidad 43 mm Posee dos agujeros para conector de 3/4 en el ancho.  Posee un agujero para conector de 7/8 y otro doble para conector desde 5/8 hasta 1 en el largo. Posee dos agujeros para conectores de 1 en el fondo.",
+            "imagen": "conectores/caja_rectangular.jpg",
+            "atributos": [
+            ]
+          },
+          {
+            "id": 4,
+            "nombre": " CAJA OCTOGONAL DE CHAPA AG",
+            "url_proyecto": "www.example.com",
+            "descripcion": "Modelo: Chapa Octogonal Normalizada. 3 agujeros para conector de 3/4 en el ancho. 2 agujeros para conector de 7/8 y otro doble para conector desde 5/8 hasta 1 en el largo. 3 agujeros para conectores de 1 en el fondo. Material: Chapa.",
+            "imagen": "conectores/caja_octogonal.png",
+            "atributos": [
+            ]
+          },
+          {
+            "id": 5,
+            "nombre": " CAJA MIGNON CHAPA AG",
+            "url_proyecto": "www.example.com",
+            "descripcion": "Marca: AG, Modelo: Chapa Mignon Normalizada, 2 agujeros para conector de 3/4 en el ancho. 1 agujero para conector de 7/8 y otro doble para conector desde 5/8 hasta 1 en el largo.2 agujeros para conectores de 1 en el fondo.Material: Chapa.",
+            "imagen": "conectores/caja_mignon.png",
+            "atributos": [
+
+            ]
+          },
+          {
+            "id": 6,
+            "nombre": " CAJA DE DERIVACIÓN PVC",
+            "url_proyecto": "www.example.com",
+            "descripcion": "La caja estanca es ideal para ser utilizada en instalaciones eléctricas, cámaras de seguridad, balunes, cajas de paso, empalme o derivación, alojar borneras, relés, contactores, circuitos de comando para maquinaria, accionamiento, etcétera. Especialmente creada para la intemperie ya que es totalmente inmune al agua.",
+            "imagen": "conectores/caja_derivacion.jpg",
+            "atributos": [
+              {
+                "nombre": "Medidas ",
+                "valores": ["Selecciona","8x8x6", "8x8x8", "10x10x8", "10x10x10", "15x15x8", "15x15x10", "15x20x8", "15x20x10"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "ILUMINACIóN",
+        "productos": [
+          {
+            "id": 7,
+            "nombre": "PANELES LEDS REDONDOS DE EMBUTIR",
+            "url_proyecto": "www.example.com",
+            "descripcion": "Alimentación: 220V, Ambientes: Interior, Color: Blanco, Lugares de montaje: De techo, Marca: Interelec, Tipo de fuente de luz: LED   Unidades por envase: 1",
+            "imagen": "iluminacion/ilu_embutir.jpg",
+            "atributos": [
+              {
+                "nombre": "Potencia: ",
+                "valores": ["Selecciona", "6W", "12W", "18W", "24W"]
+              },
+              {
+                "nombre": "Color luz: ",
+                "valores": ["Selecciona","6500K (Luz fria)", "3000K (Luz calida)"]
+              }
+            ]
+          },
+          {
+            "id": 8,
+            "nombre": "PANELES LEDS REDONDOS DE APLICAR",
+            "url_proyecto": "www.example.com",
+            "descripcion": "Alimentación: 220V, Ambientes: Interio, Marca: Interelec",
+            "imagen": "iluminacion/ilu_aplicar.png",
+            "atributos": [
+              {
+                "nombre": "Potencia: ",
+                "valores": [ "Selecciona","6W", "12W", "18W"]
+              },
+              {
+                "nombre": "Color luz: ",
+                "valores": ["Selecciona","6500K (Luz fria)", "3000K (Luz calida)"]
+              }
+            ]
+          },
+          {
+            "id": 9,
+            "nombre": "PANELES LEDS CUADRADOS DE EMBUTIR",
+            "url_proyecto": "www.example.com",
+            "descripcion": "Alimentación: 220V, Ambientes: Interior, Color: Blanco, Lugares de montaje: De techo, Marca: Interelec",
+            "imagen": "iluminacion/ilu_cuadrada_embutir.jpg",
+            "atributos": [
+              {
+                "nombre": "Potencia: ",
+                "valores": ["Selecciona", "6W", "12W", "18W"]
+              },
+              {
+                "nombre": "Color luz: ",
+                "valores": ["Selecciona","6500K (Luz fría)", "3000K (Luz calida)"]
+              }
+            ]
+          },
+          {
+            "id": 10,
+            "nombre": "LISTON DE CHAPA PARA TUBO LED 1X18",
+            "url_proyecto": "www.example.com",
+            "descripcion": "MARCA: SPOTSLINE, ZOCALO: T8, LARGO: 120CM, CONEXIÓN: EN UNA PUNTA, MATERIAL: CHAPA",
+            "imagen": "iluminacion/ilu_liston.jpg",
+            "atributos": [
+              {
+                "nombre": "aperaje",
+                "valores": ["Selecciona","2amp", "3amp", "4amp", "5amp"]
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "nombre": "PROYECTOR LED IP65",
+            "url_proyecto": "www.example.com",
+            "descripcion": "Rango de tensión de alimentación: 220-240V AC/ 50Hz/60Hz, Cantidad de LED: Multiled SMD, Angulo de iluminación: 120°, Temperatura del color: 6500°K Blanco Frío, Altura de montaje: 2-4 Metros, Color: Negro, Material: Aluminio, Vidrio Templado, Nivel de protección: IP65 Apto exterior, Vida útil: 20.000 h",
+            "imagen": "iluminacion/ilu_proyector.jpg",
+            "atributos": [
+            ]
+          },
+          {
+            "id": 10,
+            "nombre": "SPOT EMBUTIR DICRO",
+            "url_proyecto": "www.example.com",
+            "descripcion": "Marca: Spotsline, Ø: 110mm, H: 40mm, Calado: Ø: 80, Con zócalo. No incluye lampara.",
+            "imagen": "iluminacion/ilu_spotsline.png",
+            "atributos": [
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "TERMICAS Y DIYUNTORES",
+        "url_proyecto": "www.example.com",
+        "productos": [
+          {
+            "id": 12,
+            "nombre": "INT. TERMOMAGNETICO 2 POLOS",
+            "descripcion": "TERMOMAGNETICO 2 POLOS",
+            "imagen": "termicas/ter_magnetico.jpg",
+            "atributos": [
+              {
+                "nombre": "Amperajes disponibles",
+                "valores": ["Selecciona","2 Polos Curva C 4,5kA 6A",
+                "2 Polos Curva C 4,5kA 10A",
+                "2 Polos Curva C 4,5kA 16A",
+                "2 Polos Curva C 4,5kA 20A",
+                "2 Polos Curva C 4,5kA 25A",
+                "2 Polos Curva C 4,5kA 32A",
+                "2 Polos Curva C 4,5kA 40A",
+                "2 Polos Curva C 4,5kA 50A",
+                "2 Polos Curva C 4,5kA 63A"]
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "nombre": "INT. TERMOMAGNETICO 3 POLOS",
+            "url_proyecto": "www.example.com",
+            "descripcion": "Curva: C, Polos: 3P, Frecuencia : 50/60Hz, Linea : Jeluz, Bornes para cables hasta: hasta 16 mm, Capacidad de Ruptura: 3 KA, Amperaje: 3 x 10a -16a - 20a - 25a - 32a, Tipo: Mando y Protección, Montaje: Riel Din, Tensión: 230/400v",
+            "imagen": "termicas/ter_magnetico_3.jpg",
+            "atributos": [
+              {
+                "nombre": "aperaje",
+                "valores": ["Selecciona","10amp", "16amp", "20amp", "25amp","32amp", "40amp", "50amp", "63amp"]
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "nombre": "INTERRUPTOR DIFERENCIAL DOS POLOS",
+            "url_proyecto": "www.example.com",
+            "descripcion":"Polos: 2P,Frecuencia : 50/60Hz, Bornes para cables hasta: hasta 25mm, Clase : AC, Sensibilidad: 30ma, Linea: JELUZ, Tipo: Proteccion Diferencial, Montaje: Riel Din, Tensión: 230/240v, Unidad de medida: C/U, Marca: JELUZ, Opciones: 2X25A, 2X40A, Producto Nuevo, Original y Garantizado" ,
+            "imagen": "termicas/ter_diferencial.jpg",
+            "atributos": [
+              {
+                "nombre": "aperaje",
+                "valores": ["Selecciona", "16amp","25amp","32amp", "40amp", "63amp"]
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "nombre": "INTERRUPTOR DIFERENCIAL DOS POLOS",
+            "url_proyecto": "www.example.com",
+            "descripcion": "Polos: 2P,Frecuencia : 50/60Hz, Bornes para cables hasta: hasta 25mm, Clase : AC, Sensibilidad: 30ma, Linea: JELUZ, Tipo: Proteccion Diferencial, Montaje: Riel Din, Tensión: 230/240v, Unidad de medida: C/U, Marca: JELUZ, Opciones: 2X25A, 2X40A, Producto Nuevo, Original y Garantizado" ,
+            "imagen": "termicas/ter_magnetico_dif.jpg",
+            "atributos": [
+              {
+                "nombre": "aperaje",
+                "valores": [ "Selecciona","16amp","25amp","32amp", "40amp", "63amp"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nombre": "Otra categoría",
+        "productos": [
+          {
+            "id": 16,
+            "nombre": "Producto 9",
+            "url_proyecto": "www.example.com",
+            "descripcion": "Descripción del producto 9",
+            "imagen": "path_de_la_imagen_9",
+            "atributos": [
+              {
+                "nombre": "aperaje",
+                "valores": ["Selecciona","2amp", "3amp", "4amp", "5amp"]
+              },
+              {
+                "nombre": "otro_atributo",
+                "valores": ["valor1", "valor2", "valor3"]
+              }
+            ]
+          },
+          {
+            "id": 17,
+            "nombre": "Producto 10",
+            "url_proyecto": "www.example.com",
+            "descripcion": "Descripción del producto 10",
+            "imagen": "path_de_la_imagen_10",
+            "atributos": [
+              {
+                "nombre": "aperaje",
+                "valores": ["2amp", "3amp", "4amp", "5amp"]
+              },
+              {
+                "nombre": "otro_atributo",
+                "valores": ["valor1", "valor2", "valor3"]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  
+  
