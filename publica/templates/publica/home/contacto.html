@@ -14,7 +14,7 @@
         <div class="d-flex justify-content-between align-items-center">
           <h2>Contacto</h2>
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="{% url 'publica:home' %}">Home</a></li>
             <li>Contacto</li>
           </ol>
         </div>
@@ -50,7 +50,7 @@
               <div class="row">
                 <div class="col-lg-4 info">
                   <i class="bi bi-geo-alt"></i>
-                  <h4>Location:</h4>
+                  <h4>Dirección:</h4>
                   <p>A108 Adam Street<br>New York, NY 535022</p>
                 </div>
 
@@ -62,7 +62,7 @@
 
                 <div class="col-lg-4 info mt-4 mt-lg-0">
                   <i class="bi bi-phone"></i>
-                  <h4>Call:</h4>
+                  <h4>Teléfono:</h4>
                   <p>+1 5589 55488 51<br>+1 5589 22475 14</p>
                 </div>
               </div>
@@ -77,7 +77,7 @@
             <form action="{% url 'publica:contacto' %}" method="post" role="form" class="php-email-form">
               {% csrf_token %}
               {{ form.as_p }}
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Enviar consulta</button></div>
             </form>
             
           </div>

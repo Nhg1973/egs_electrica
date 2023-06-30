@@ -6,7 +6,7 @@ from django.http import HttpResponseNotFound
 from django.shortcuts import redirect, render, get_object_or_404
 from django.core.mail import send_mail
 
-from publica.form.forms import ContactForm
+from publica.form.forms import ContactForm, PresupuestoForm
 
 
 def home(request):
@@ -18,8 +18,6 @@ def about(request):
 def services(request):
     return render(request, 'publica/home/Servicios.html')
 
-def testimonials(request):
-    return render(request, 'publica/home/Opiniones.html')
 
 from django.shortcuts import render
 
@@ -48,8 +46,29 @@ def pricing(request):
 def portfolio(request):
     return render(request, 'publica/home/Trabajos.html')
 
-def blog(request):
-    return render(request, 'publica/home/Ayudas.html')
+def presupuesto(request):
+    if request.method == 'POST':
+        form = PresupuestoForm(request.POST)
+        if form.is_valid():
+            # Aquí puedes realizar acciones con los datos del formulario, como enviar correos electrónicos o guardar en la base de datos
+            # Por ejemplo, puedes acceder a los campos de la siguiente manera:
+            name = form.cleaned_data['name']
+            email = form.cleaned_data['email']
+            subject = form.cleaned_data['subject']
+            message = form.cleaned_data['message']
+            try:
+                # Procesar el envío del correo electrónico
+                send_mail(subject, message, name, ['egselectricidadweb@gmail.com'], fail_silently=False)
+                messages.success(request, f"{name} tu solicitud de presupuesto se envió exitosamente.")
+            except:
+                messages.error(request, 'Hubo un error al enviar el correo.')
+
+            return redirect('publica:contacto')
+
+    else:
+        form = PresupuestoForm()
+        
+    return render(request, 'publica/home/presupuesto.html', {'form': form})
 
 
 
@@ -132,14 +151,6 @@ def mostrar_producto(request, producto_id):
 
 
 
-  
-
-
-
-
-
-
-
 
 def contacto(request):
     if request.method == 'POST':
@@ -150,8 +161,6 @@ def contacto(request):
             subject = form.cleaned_data['subject']
             message = form.cleaned_data['message']
             message += f"\n\nCorreo electrónico: {email}\nNombre: {name}"
-        
-
             try:
                 # Procesar el envío del correo electrónico
                 send_mail(subject, message, name, ['egselectricidadweb@gmail.com'], fail_silently=False)

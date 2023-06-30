@@ -64,22 +64,36 @@ h6 {
 
 .whatsapp-container {
   position: fixed;
-  top: 30%;
+  top: 50%;
   right: 20px; /* Ajusta esta propiedad para establecer la distancia desde el borde derecho de la pantalla */
-  transform: translate(-50%, -50%);
+  transform: translate(0, -50%);
   z-index: 9999; /* Ajusta este valor para asegurar que el icono esté en el nivel superior */
-  background-color: #25D366;
-  padding: 10px;
+  background-color: transparent;
+  padding: 40px; /* Ajusta este valor para aumentar el tamaño del contenedor */
   border-radius: 50%;
 }
 
-.whatsapp-container a {
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
+@media (max-width: 600px) {
+  /* Estilos para dispositivos con ancho máximo de 600px (móviles) */
+  .whatsapp-container {
+    padding: 20px; /* Ajusta este valor para cambiar el tamaño del contenedor en dispositivos móviles */
+  }
+
+  .whatsapp-container img {
+    width: 30px; /* Ajusta este valor para cambiar el tamaño de la imagen en dispositivos móviles */
+    height: 30px; /* Ajusta este valor para cambiar el tamaño de la imagen en dispositivos móviles */
+  }
 }
+
+.whatsapp-container img {
+  width: 60px; /* Ajusta este valor para cambiar el tamaño de la imagen en dispositivos no móviles */
+  height: 60px; /* Ajusta este valor para cambiar el tamaño de la imagen en dispositivos no móviles */
+}
+
+
+
+
+
 
 
 
@@ -711,6 +725,9 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.custom-icon::before {
+  content: none;
+}
 .services .icon-box {
   padding: 50px 20px;
   margin-top: 35px;
@@ -719,7 +736,7 @@ section {
   border: 1px solid #ebe6e4;
   height: 200px;
   position: relative;
-  background: #faf9f8;
+  background: #fcf8f4;
 }
 
 .services .icon {
@@ -740,7 +757,7 @@ section {
 
 .services .icon i {
   color: #fff;
-  font-size: 24px;
+  font-size: 16px;
   line-height: 0;
 }
 
@@ -768,10 +785,13 @@ section {
   color: #1b2cc6;
 }
 
+
 .services .description {
   line-height: 24px;
   font-size: 14px;
 }
+
+
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -962,12 +982,13 @@ section {
   border-bottom: 1px solid #f1eeed;
   overflow: hidden;
   background: #fff;
-  height: 100px;
+  width: 100%;
+  height: auto;
 }
 
 .clients .client-logo img {
   transition: all 0.3s ease-in-out;
-  height: 36px;
+  height: 200 px;
   filter: grayscale(100%);
 }
 
