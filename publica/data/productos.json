@@ -78,12 +78,199 @@
                 "valores": ["Selecciona","8x8x6", "8x8x8", "10x10x8", "10x10x10", "15x15x8", "15x15x10", "15x20x8", "15x20x10"]
               }
             ]
-          }
+          },
+          {
+            "id": 18,
+            "nombre": "Caños",
+            "url_proyecto": "www.example.com/cons",
+            "descripcion": "Descripción del producto cons",
+            "imagen": "conectores/canos.jpeg",
+            "atributos": [
+              {
+                "nombre": "aperaje",
+                "valores": ["2amp", "3amp", "4amp", "5amp"]
+              },
+              {
+                "nombre": "otro_atributo",
+                "valores": ["valor1", "valor2", "valor3"]
+              }
+            ]
+          },
+          {
+            "id": 19,
+            "nombre": "tableros_plasticos",
+            "url_proyecto": "www.example.com/tableros_plasticos",
+            "descripcion": "Descripción del producto tableros plásticos",
+            "imagen": "conectores/tableros_plasticos.jpeg",
+            "atributos": [
+              {
+                "nombre": "aperaje",
+                "valores": ["2amp", "3amp", "4amp", "5amp"]
+              },
+              {
+                "nombre": "otro_atributo",
+                "valores": ["valor1", "valor2", "valor3"]
+              }
+            ]
+          },
+          {
+            "id": 20,
+            "nombre": "tableros",
+            "url_proyecto": "www.example.com/tableros",
+            "descripcion": "Descripción del producto tableros",
+            "imagen": "conectores/tableros.jpeg",
+            "atributos": [
+              {
+                "nombre": "aperaje",
+                "valores": ["2amp", "3amp", "4amp", "5amp"]
+              },
+              {
+                "nombre": "otro_atributo",
+                "valores": ["valor1", "valor2", "valor3"]
+              }
+            ]
+          },
+          {
+            "id": 21,
+            "nombre": "tablerosYcajas",
+            "url_proyecto": "www.example.com/tablerosYcajas",
+            "descripcion": "Descripción del producto tableros y cajas",
+            "imagen": "conectores/tablerosYcajas.jpeg",
+            "atributos": [
+              {
+                "nombre": "aperaje",
+                "valores": ["2amp", "3amp", "4amp", "5amp"]
+              },
+              {
+                "nombre": "otro_atributo",
+                "valores": ["valor1", "valor2", "valor3"]
+              }
+            ]
+          }                   
         ]
       },
       {
         "nombre": "ILUMINACIóN",
         "productos": [
+          {
+            "id": 22,
+            "nombre": "lamparas_led",
+            "url_proyecto": "www.example.com/lamparas_led",
+            "descripcion": "Descripción del producto lámparas LED",
+            "imagen": "iluminacion/lamparas_led.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["LED"]
+              },
+              {
+                "nombre": "potencia",
+                "valores": ["5W", "10W", "15W"]
+              }
+            ]
+          },
+          {
+            "id": 23,
+            "nombre": "lamparas_tubo",
+            "url_proyecto": "www.example.com/lamparas_tubos",
+            "descripcion": "Descripción del producto lámparas tubo",
+            "imagen": "iluminacion/lamparas_tubos.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["Tubo"]
+              },
+              {
+                "nombre": "longitud",
+                "valores": ["60cm", "90cm", "120cm"]
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "nombre": "lamparas",
+            "url_proyecto": "www.example.com/lamparas",
+            "descripcion": "Descripción del producto lámparas",
+            "imagen": "iluminacion/lamparas.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["Lámpara"]
+              },
+              {
+                "nombre": "estilo",
+                "valores": ["Moderno", "Clásico", "Vintage"]
+              }
+            ]
+          },
+          {
+            "id": 25,
+            "nombre": "lamparasYartefactos",
+            "url_proyecto": "www.example.com/lamparasYartefactos",
+            "descripcion": "Descripción del producto lámparas y artefactos de iluminación",
+            "imagen": "iluminacion/lamparasYartefactos.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["Lámpara", "Artefacto"]
+              },
+              {
+                "nombre": "uso",
+                "valores": ["Interior", "Exterior"]
+              }
+            ]
+          },
+          {
+            "id": 26,
+            "nombre": "plafones_led",
+            "url_proyecto": "www.example.com/plafones_led",
+            "descripcion": "Descripción del producto plafones LED",
+            "imagen": "iluminacion/plafones_led.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["LED"]
+              },
+              {
+                "nombre": "potencia",
+                "valores": ["10W", "20W", "30W"]
+              }
+            ]
+          },
+          {
+            "id": 28,
+            "nombre": "tubos_precintos",
+            "url_proyecto": "www.example.com/tubos_precintos",
+            "descripcion": "Descripción del producto tubos precintos",
+            "imagen": "iluminacion/tubos_precintos.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["Tubo", "Precinto"]
+              },
+              {
+                "nombre": "longitud",
+                "valores": ["60cm", "90cm", "120cm"]
+              }
+            ]
+          },
+          {
+            "id": 27,
+            "nombre": "sensor300315_6",
+            "url_proyecto": "www.example.com/sensor300315_6",
+            "descripcion": "Descripción del producto sensor 300315_6",
+            "imagen": "iluminacion/sensor300315_6.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["Sensor"]
+              },
+              {
+                "nombre": "rango",
+                "valores": ["0-300", "0-315", "0-6"]
+              }
+            ]
+          },
           {
             "id": 7,
             "nombre": "PANELES LEDS REDONDOS DE EMBUTIR",
@@ -173,6 +360,244 @@
         "url_proyecto": "www.example.com",
         "productos": [
           {
+            "id": 29,
+            "nombre": "fh202_ac25",
+            "url_proyecto": "www.example.com/fh202_ac25",
+            "descripcion": "Descripción del producto FH202 AC25",
+            "imagen": "termicas/fh202_ac25.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["Termomagnética"]
+              },
+              {
+                "nombre": "corriente nominal",
+                "valores": ["25A"]
+              }
+            ]
+          },
+          {
+            "id": 30,
+            "nombre": "fh202_ac40",
+            "url_proyecto": "www.example.com/fh202_ac40",
+            "descripcion": "Descripción del producto FH202 AC40",
+            "imagen": "termicas/fh202_ac40.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["Termomagnética"]
+              },
+              {
+                "nombre": "corriente nominal",
+                "valores": ["40A"]
+              }
+            ]
+          },
+          {
+            "id": 31,
+            "nombre": "fh204_ac25",
+            "url_proyecto": "www.example.com/fh204_ac25",
+            "descripcion": "Descripción del producto FH204 AC25",
+            "imagen": "termicas/fh204_ac25.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["Termomagnética"]
+              },
+              {
+                "nombre": "corriente nominal",
+                "valores": ["25A"]
+              }
+            ]
+          },
+          {
+            "id": 32,
+            "nombre": "sh201l_c25",
+            "url_proyecto": "www.example.com/sh201l_c25",
+            "descripcion": "Descripción del producto SH201L C25",
+            "imagen": "termicas/sh201l_c25.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["Termomagnética"]
+              },
+              {
+                "nombre": "corriente nominal",
+                "valores": ["25A"]
+              }
+            ]
+          },
+          {
+            "id": 33,
+            "nombre": "sh202l_c32",
+            "url_proyecto": "www.example.com/sh202l_c32",
+            "descripcion": "Descripción del producto SH202L C32",
+            "imagen": "termicas/sh202l_ac32.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["Termomagnética"]
+              },
+              {
+                "nombre": "corriente nominal",
+                "valores": ["32A"]
+              }
+            ]
+          },
+          {
+            "id": 34,
+            "nombre": "sh202lc10",
+            "url_proyecto": "www.example.com/sh202lc10",
+            "descripcion": "Descripción del producto SH202LC10",
+            "imagen": "termicas/sh202l_c10.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["Termomagnética"]
+              },
+              {
+                "nombre": "corriente nominal",
+                "valores": ["10A"]
+              }
+            ]
+          },
+          {
+            "id": 35,
+            "nombre": "sh202l_c16",
+            "url_proyecto": "www.example.com/sh202l_c16",
+            "descripcion": "Descripción del producto SH202L C16",
+            "imagen": "termicas/sh202l_c16.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["Termomagnética"]
+              },
+              {
+                "nombre": "corriente nominal",
+                "valores": ["16A"]
+              }
+            ]
+          },
+          {
+            "id": 36,
+            "nombre": "sh202l_c20",
+            "url_proyecto": "www.example.com/sh202l_c20",
+            "descripcion": "Descripción del producto SH202L C20",
+            "imagen": "termicas/sh202l_c20.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["Termomagnética"]
+              },
+              {
+                "nombre": "corriente nominal",
+                "valores": ["20A"]
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "nombre": "sh202l_c40",
+            "url_proyecto": "www.example.com/sh202l_c40",
+            "descripcion": "Descripción del producto SH202L C40",
+            "imagen": "termicas/sh202l_c40.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["Termomagnética"]
+              },
+              {
+                "nombre": "corriente nominal",
+                "valores": ["40A"]
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "nombre": "sh204l_c25",
+            "url_proyecto": "www.example.com/sh204l_c25",
+            "descripcion": "Descripción del producto SH204L C25",
+            "imagen": "termicas/sh204l_c25.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["Termomagnética"]
+              },
+              {
+                "nombre": "corriente nominal",
+                "valores": ["25A"]
+              }
+            ]
+          },
+          {
+            "id": 39,
+            "nombre": "termica_atv12hu",
+            "url_proyecto": "www.example.com/termica_atv12hu",
+            "descripcion": "Descripción del producto Termica ATV12HU",
+            "imagen": "termicas/termica_atv12hu.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["Termomagnética"]
+              },
+              {
+                "nombre": "corriente nominal",
+                "valores": ["12A"]
+              }
+            ]
+          },
+          {
+            "id": 40,
+            "nombre": "termica_sdr24030",
+            "url_proyecto": "www.example.com/termica_sdr24030",
+            "descripcion": "Descripción del producto Termica SDR24030",
+            "imagen": "termicas/termica_sdr24030.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["Termomagnética"]
+              },
+              {
+                "nombre": "corriente nominal",
+                "valores": ["30A"]
+              }
+            ]
+          },
+          {
+            "id": 41,
+            "nombre": "termica_sh202l-c25",
+            "url_proyecto": "www.example.com/termica_sh202l-c25",
+            "descripcion": "Descripción del producto Termica SH202L-C25",
+            "imagen": "termicas/termica_sh202l-c25.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["Termomagnética"]
+              },
+              {
+                "nombre": "corriente nominal",
+                "valores": ["25A"]
+              }
+            ]
+          },
+          {
+            "id": 42,
+            "nombre": "termiva_llaves",
+            "url_proyecto": "www.example.com/termiva_llaves",
+            "descripcion": "Descripción del producto Termiva Llaves",
+            "imagen": "termicas/termicas_llaves.jpeg",
+            "atributos": [
+              {
+                "nombre": "tipo",
+                "valores": ["Termomagnética"]
+              },
+              {
+                "nombre": "corriente nominal",
+                "valores": ["10A", "16A", "20A", "25A", "32A", "40A"]
+              }
+            ]
+          },          
+          {
             "id": 12,
             "nombre": "INT. TERMOMAGNETICO 2 POLOS",
             "descripcion": "TERMOMAGNETICO 2 POLOS",
@@ -232,46 +657,7 @@
             ]
           }
         ]
-      },
-      {
-        "nombre": "Otra categoría",
-        "productos": [
-          {
-            "id": 16,
-            "nombre": "Producto 9",
-            "url_proyecto": "www.example.com",
-            "descripcion": "Descripción del producto 9",
-            "imagen": "path_de_la_imagen_9",
-            "atributos": [
-              {
-                "nombre": "aperaje",
-                "valores": ["Selecciona","2amp", "3amp", "4amp", "5amp"]
-              },
-              {
-                "nombre": "otro_atributo",
-                "valores": ["valor1", "valor2", "valor3"]
-              }
-            ]
-          },
-          {
-            "id": 17,
-            "nombre": "Producto 10",
-            "url_proyecto": "www.example.com",
-            "descripcion": "Descripción del producto 10",
-            "imagen": "path_de_la_imagen_10",
-            "atributos": [
-              {
-                "nombre": "aperaje",
-                "valores": ["2amp", "3amp", "4amp", "5amp"]
-              },
-              {
-                "nombre": "otro_atributo",
-                "valores": ["valor1", "valor2", "valor3"]
-              }
-            ]
-          }
-        ]
-      }
+      }     
     ]
   }
   

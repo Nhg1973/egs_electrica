@@ -2,23 +2,23 @@ from django import forms
 
 class ContactForm(forms.Form):
     name = forms.CharField(
-        label='Your Name',
+        label='Nombre',
         max_length=100,
-        widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Your Name', 'required': True})
+        widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Ingresa tú nombre', 'required': True})
     )
     email = forms.EmailField(
-        label='Your Email',
+        label='Email',
         max_length=100,
-        widget=forms.EmailInput(attrs={'class': 'form-control', 'placeholder': 'Your Email', 'required': True})
+        widget=forms.EmailInput(attrs={'class': 'form-control', 'placeholder': 'Ingresa una dirección de correo', 'required': True})
     )
     subject = forms.CharField(
-        label='Subject',
+        label='Motivo',
         max_length=100,
-        widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Subject', 'required': True})
+        widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Motivo', 'required': True})
     )
     message = forms.CharField(
-        label='Message',
-        widget=forms.Textarea(attrs={'class': 'form-control', 'placeholder': 'Message', 'required': True})
+        label='Mensaje',
+        widget=forms.Textarea(attrs={'class': 'form-control', 'placeholder': 'En que podemos ayudarte ', 'required': True})
     )
 
 
@@ -51,6 +51,6 @@ class PresupuestoForm(forms.Form):
 
 
     message = forms.CharField(
-        label='Message',
-        widget=forms.Textarea(attrs={'class': 'form-control', 'placeholder': 'Message', 'required': False})
+        label='Mensaje',
+        widget=forms.Textarea(attrs={'class': 'form-control', 'placeholder': 'Mensaje', 'required': False})
     )
