@@ -1,38 +1,200 @@
 {
     "categorias": [
       {
-        "nombre": "CABLES",
+        "nombre": "LUMINARIA",
         "productos": [
           {
             "id": 1,
-            "nombre": "Cable tipo taller",
-            "url_proyecto": "www.example.com",
-            "descripcion": "Cable de cobre con aislación de pvc. Para instalaciones móviles, industriales, domésticas y aparatos portátiles en general con tensión nominal de 300/500 vca 70º.Cumple con norma IRAM NM 247-5. No apto para uso en aparatos de calefacción.",
-            "imagen": "cables/taller.jpg",
+            "nombre": "Araña de 5 luces",
+            "descripcion": "Lámpara: Colgante, Largo: 1 m, Capacidad de focos: 5, Tipos de fuentes de luz: LED,Materiales: Cromo y Cristal.",
+            "imagen": "Luminaria/arana.webp",
             "atributos": [
               {
-                "nombre": "Milimetros  ",
-                "valores": ["Selecciona","2X1MM", "2X0.75MM", "2X1.5MM", "2X2.5MM","3X0.75","3X1MM","3X2.5MM"]
+                "nombre": "Alimentación",
+                "valores": ["220V"]
               }
             ]
           },
           {
-            "id": 2,
-            "nombre": "Cable tipo unipolar",
-            "url_proyecto": "www.example.com",
-            "descripcion": "Cable de cobre con aislación de pvc. 450/750v inclusive para instalaciones fijas interiores en inmuebles y cableado de aparatos eléctricas cumple con norma IRAM-NM 247-3 designación 247 NM 02-C4-BWF-B",
-            "imagen": "cables/unipolar.jpg",
+            "id": 43,
+            "nombre": "Araña ligth",
+            "descripcion": "Lámpara: Colgante, Largo: 1 m, Capacidad de focos: 5, Tipos de fuentes de luz: LED,Materiales: Cromo y Cristal.",
+            "imagen": "Luminaria/arana5_2.jpg",
             "atributos": [
               {
-                "nombre": "Color",
-                "valores": ["Selecciona","rojo", "verde", "negro", "azul"]
-              },
-              {
-                "nombre": "Milimetros",
-                "valores": ["Selecciona","1MM", "2.5MM", "4MM","6MM"]
+                "nombre": "Alimentación",
+                "valores": ["220V"]
               }
             ]
-          }
+          },
+          {
+            "id": 44,
+            "nombre": "Átomo",
+            "descripcion": "Lámpara: Colgante, brazos ajustables, Largo: 1,2 m, Capacidad de focos: 7, Tipos de fuentes de luz: LED,Materiales: Cromo y Cristal.",
+            "imagen": "Luminaria/atomo_1.jpg",
+            "atributos": [
+              {
+                "nombre": "Alimentación",
+                "valores": ["220V"]
+              }
+            ]
+          },
+          {
+            "id": 45,
+            "nombre": "Industrial ",
+            "descripcion": "Lámpara: Colgante, Largo: 1 m, Capacidad de focos: 5, Tipos de fuentes de luz: LED,Materiales: Cromo y Cristal.",
+            "imagen":"Luminaria/caja5luces.jpg", 
+            "atributos": [
+              {
+                "nombre": "Alimentación",
+                "valores": ["220V"]
+              }
+            ]
+          },
+          {
+            "id": 46,
+            "nombre": "Industrial 5 luces",
+            "descripcion": "Lámpara: Colgante, Largo: 1 m, Capacidad de focos: 5, Tipos de fuentes de luz: LED,Materiales: Cromo y Cristal.",
+            "imagen": "Luminaria/cincoLuces.jpg",
+            "atributos": [
+              {
+                "nombre": "Alimentación",
+                "valores": ["220V"]
+              }
+            ]
+          },
+          {
+            "id": 47,
+            "nombre": "Circulos",
+            "descripcion": "Lámpara: Colgante, Largo: 1 m, Capacidad de focos: 5, Tipos de fuentes de luz: LED,Materiales: Cromo y Cristal.",
+            "imagen": "Luminaria/circulos.jpg",
+            "atributos": [
+              {
+                "nombre": "Alimentación",
+                "valores": ["220V"]
+              }
+            ]
+          },
+          {
+            "id": 47,
+            "nombre": "Circulos",
+            "descripcion": "Lámpara: Colgante, Largo: 1 m, Capacidad de focos: 5, Tipos de fuentes de luz: LED,Materiales: Cromo y Cristal.",
+            "imagen": "Luminaria/circulos_mediano.jpg",
+            "atributos": [
+              {
+                "nombre": "Alimentación",
+                "valores": ["220V"]
+              }
+            ]
+          },
+          {
+            "id": 48,
+            "nombre": "Circulos",
+            "descripcion": "Lámpara: Colgante, Largo: 1 m, Capacidad de focos: 5, Tipos de fuentes de luz: LED,Materiales: Cromo y Cristal.",
+            "imagen": "Luminaria/circulosGrande.jpg",
+            "atributos": [
+              {
+                "nombre": "Alimentación",
+                "valores": ["220V"]
+              }
+            ]
+          },
+          {
+            "id": 49,
+            "nombre": "Circulos",
+            "descripcion": "Lámpara: Colgante, Largo: 1 m, Capacidad de focos: 5, Tipos de fuentes de luz: LED,Materiales: Cromo y Cristal.",
+            "imagen": "Luminaria/lamparaRed.jpg",
+            "atributos": [
+              {
+                "nombre": "Alimentación",
+                "valores": ["220V"]
+              }
+            ]
+          },
+          {
+            "id": 50,
+            "nombre": "Circulos",
+            "descripcion": "Lámpara: Colgante, Largo: 1 m, Capacidad de focos: 5, Tipos de fuentes de luz: LED,Materiales: Cromo y Cristal.",
+            "imagen": "Luminaria/red_2.webp",
+            "atributos": [
+              {
+                "nombre": "Alimentación",
+                "valores": ["220V"]
+              }
+            ]
+          },
+          {
+            "id": 51,
+            "nombre": "Circulos",
+            "descripcion": "Lámpara: Colgante, Largo: 1 m, Capacidad de focos: 5, Tipos de fuentes de luz: LED,Materiales: Cromo y Cristal.",
+            "imagen": "Luminaria/red_3.jpg",
+            "atributos": [
+              {
+                "nombre": "Alimentación",
+                "valores": ["220V"]
+              }
+            ]
+          },
+          {
+            "id": 52,
+            "nombre": "Circulos",
+            "descripcion": "Lámpara: Colgante, Largo: 1 m, Capacidad de focos: 5, Tipos de fuentes de luz: LED,Materiales: Cromo y Cristal.",
+            "imagen": "Luminaria/red_3.webp",
+            "atributos": [
+              {
+                "nombre": "Alimentación",
+                "valores": ["220V"]
+              }
+            ]
+          },
+          {
+            "id": 53,
+            "nombre": "Circulos",
+            "descripcion": "Lámpara: Colgante, Largo: 1 m, Capacidad de focos: 5, Tipos de fuentes de luz: LED,Materiales: Cromo y Cristal.",
+            "imagen": "Luminaria/redondas.jpg",
+            "atributos": [
+              {
+                "nombre": "Alimentación",
+                "valores": ["220V"]
+              }
+            ]
+          },
+          {
+            "id": 54,
+            "nombre": "Circulos",
+            "descripcion": "Lámpara: Colgante, Largo: 1 m, Capacidad de focos: 5, Tipos de fuentes de luz: LED,Materiales: Cromo y Cristal.",
+            "imagen": "Luminaria/sombrero.jpg",
+            "atributos": [
+              {
+                "nombre": "Alimentación",
+                "valores": ["220V"]
+              }
+            ]
+          },
+          {
+            "id": 55,
+            "nombre": "Circulos",
+            "descripcion": "Lámpara: Colgante, Largo: 1 m, Capacidad de focos: 5, Tipos de fuentes de luz: LED,Materiales: Cromo y Cristal.",
+            "imagen": "Luminaria/sombreros_3.jpg",
+            "atributos": [
+              {
+                "nombre": "Alimentación",
+                "valores": ["220V"]
+              }
+            ]
+          },
+          {
+            "id": 56,
+            "nombre": "Circulos",
+            "descripcion": "Lámpara: Colgante, Largo: 1 m, Capacidad de focos: 5, Tipos de fuentes de luz: LED,Materiales: Cromo y Cristal.",
+            "imagen": "Luminaria/sombreros_2.jpg",
+            "atributos": [
+              {
+                "nombre": "Alimentación",
+                "valores": ["220V"]
+              }
+            ]
+          }      
         ]
       },
       {
@@ -360,6 +522,91 @@
         "url_proyecto": "www.example.com",
         "productos": [
           {
+            "id": 12,
+            "nombre": "INT. TERMOMAGNETICO 2 POLOS",
+            "descripcion": "TERMOMAGNETICO 2 POLOS",
+            "imagen": "termicas/r100.jpg",
+            "atributos": [
+              {
+                "nombre": "Amperajes disponibles",
+                "valores": ["Selecciona","2 Polos Curva C 4,5kA 6A",
+                "2 Polos Curva C 4,5kA 10A",
+                "2 Polos Curva C 4,5kA 16A",
+                "2 Polos Curva C 4,5kA 20A",
+                "2 Polos Curva C 4,5kA 25A",
+                "2 Polos Curva C 4,5kA 32A",
+                "2 Polos Curva C 4,5kA 40A",
+                "2 Polos Curva C 4,5kA 50A",
+                "2 Polos Curva C 4,5kA 63A"]
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "nombre": "INT. TERMOMAGNETICO 3 POLOS",
+            "url_proyecto": "www.example.com",
+            "descripcion": "Curva: C, Polos: 3P, Frecuencia : 50/60Hz, Linea : Jeluz, Bornes para cables hasta: hasta 16 mm, Capacidad de Ruptura: 3 KA, Amperaje: 3 x 10a -16a - 20a - 25a - 32a, Tipo: Mando y Protección, Montaje: Riel Din, Tensión: 230/400v",
+            "imagen": "termicas/abb174.png",
+            "atributos": [
+              {
+                "nombre": "aperaje",
+                "valores": ["Selecciona","10amp", "16amp", "20amp", "25amp","32amp", "40amp", "50amp", "63amp"]
+              }
+            ]
+          },
+          {
+            "id": 14,
+            "nombre": "INTERRUPTOR DIFERENCIAL DOS POLOS",
+            "url_proyecto": "www.example.com",
+            "descripcion":"Polos: 2P,Frecuencia : 50/60Hz, Bornes para cables hasta: hasta 25mm, Clase : AC, Sensibilidad: 30ma, Linea: JELUZ, Tipo: Proteccion Diferencial, Montaje: Riel Din, Tensión: 230/240v, Unidad de medida: C/U, Marca: JELUZ, Opciones: 2X25A, 2X40A, Producto Nuevo, Original y Garantizado" ,
+            "imagen": "termicas/abb171.png",
+            "atributos": [
+              {
+                "nombre": "aperaje",
+                "valores": ["Selecciona", "16amp","25amp","32amp", "40amp", "63amp"]
+              }
+            ]
+          },
+          {
+            "id": 15,
+            "nombre": "LLAVE TERMICA 45K",
+            "url_proyecto": "www.example.com",
+            "descripcion": "Polos: 2P,Frecuencia : 50/60Hz, Bornes para cables hasta: hasta 25mm, Clase : AC, Sensibilidad: 30ma, Linea: JELUZ, Tipo: Proteccion Diferencial, Montaje: Riel Din, Tensión: 230/240v, Unidad de medida: C/U, Marca: JELUZ, Opciones: 2X25A, 2X40A, Producto Nuevo, Original y Garantizado" ,
+            "imagen": "termicas/termica45.jpg",
+            "atributos": [
+              {
+                "nombre": "aperaje",
+                "valores": [ "Selecciona","16amp","25amp","32amp", "40amp", "63amp"]
+              }
+            ]
+          },
+          {
+            "id": 57,
+            "nombre": "LLAVE MAGNETICA DIFERENCIAL",
+            "url_proyecto": "www.example.com",
+            "descripcion":"Polos: 2P,Frecuencia : 50/60Hz, Bornes para cables hasta: hasta 25mm, Clase : AC, Sensibilidad: 30ma, Linea: JELUZ, Tipo: Proteccion Diferencial, Montaje: Riel Din, Tensión: 230/240v, Unidad de medida: C/U, Marca: JELUZ, Opciones: 2X25A, 2X40A, Producto Nuevo, Original y Garantizado" ,
+            "imagen": "termicas/magnetico_dif.webp",
+            "atributos": [
+              {
+                "nombre": "aperaje",
+                "valores": ["Selecciona", "16amp","25amp","32amp", "40amp", "63amp"]
+              }
+            ]
+          },
+          {
+            "id": 58,
+            "nombre": "LLAVE TERMICA 45K",
+            "url_proyecto": "www.example.com",
+            "descripcion": "Polos: 2P,Frecuencia : 50/60Hz, Bornes para cables hasta: hasta 25mm, Clase : AC, Sensibilidad: 30ma, Linea: JELUZ, Tipo: Proteccion Diferencial, Montaje: Riel Din, Tensión: 230/240v, Unidad de medida: C/U, Marca: JELUZ, Opciones: 2X25A, 2X40A, Producto Nuevo, Original y Garantizado" ,
+            "imagen": "termicas/ter_magnetico_3.webp",
+            "atributos": [
+              {
+                "nombre": "aperaje",
+                "valores": [ "Selecciona","16amp","25amp","32amp", "40amp", "63amp"]
+              }
+            ]
+          },
+          {
             "id": 29,
             "nombre": "fh202_ac25",
             "url_proyecto": "www.example.com/fh202_ac25",
@@ -594,65 +841,6 @@
               {
                 "nombre": "corriente nominal",
                 "valores": ["10A", "16A", "20A", "25A", "32A", "40A"]
-              }
-            ]
-          },          
-          {
-            "id": 12,
-            "nombre": "INT. TERMOMAGNETICO 2 POLOS",
-            "descripcion": "TERMOMAGNETICO 2 POLOS",
-            "imagen": "termicas/ter_magnetico.jpg",
-            "atributos": [
-              {
-                "nombre": "Amperajes disponibles",
-                "valores": ["Selecciona","2 Polos Curva C 4,5kA 6A",
-                "2 Polos Curva C 4,5kA 10A",
-                "2 Polos Curva C 4,5kA 16A",
-                "2 Polos Curva C 4,5kA 20A",
-                "2 Polos Curva C 4,5kA 25A",
-                "2 Polos Curva C 4,5kA 32A",
-                "2 Polos Curva C 4,5kA 40A",
-                "2 Polos Curva C 4,5kA 50A",
-                "2 Polos Curva C 4,5kA 63A"]
-              }
-            ]
-          },
-          {
-            "id": 13,
-            "nombre": "INT. TERMOMAGNETICO 3 POLOS",
-            "url_proyecto": "www.example.com",
-            "descripcion": "Curva: C, Polos: 3P, Frecuencia : 50/60Hz, Linea : Jeluz, Bornes para cables hasta: hasta 16 mm, Capacidad de Ruptura: 3 KA, Amperaje: 3 x 10a -16a - 20a - 25a - 32a, Tipo: Mando y Protección, Montaje: Riel Din, Tensión: 230/400v",
-            "imagen": "termicas/ter_magnetico_3.jpg",
-            "atributos": [
-              {
-                "nombre": "aperaje",
-                "valores": ["Selecciona","10amp", "16amp", "20amp", "25amp","32amp", "40amp", "50amp", "63amp"]
-              }
-            ]
-          },
-          {
-            "id": 14,
-            "nombre": "INTERRUPTOR DIFERENCIAL DOS POLOS",
-            "url_proyecto": "www.example.com",
-            "descripcion":"Polos: 2P,Frecuencia : 50/60Hz, Bornes para cables hasta: hasta 25mm, Clase : AC, Sensibilidad: 30ma, Linea: JELUZ, Tipo: Proteccion Diferencial, Montaje: Riel Din, Tensión: 230/240v, Unidad de medida: C/U, Marca: JELUZ, Opciones: 2X25A, 2X40A, Producto Nuevo, Original y Garantizado" ,
-            "imagen": "termicas/ter_diferencial.jpg",
-            "atributos": [
-              {
-                "nombre": "aperaje",
-                "valores": ["Selecciona", "16amp","25amp","32amp", "40amp", "63amp"]
-              }
-            ]
-          },
-          {
-            "id": 15,
-            "nombre": "INTERRUPTOR DIFERENCIAL DOS POLOS",
-            "url_proyecto": "www.example.com",
-            "descripcion": "Polos: 2P,Frecuencia : 50/60Hz, Bornes para cables hasta: hasta 25mm, Clase : AC, Sensibilidad: 30ma, Linea: JELUZ, Tipo: Proteccion Diferencial, Montaje: Riel Din, Tensión: 230/240v, Unidad de medida: C/U, Marca: JELUZ, Opciones: 2X25A, 2X40A, Producto Nuevo, Original y Garantizado" ,
-            "imagen": "termicas/ter_magnetico_dif.jpg",
-            "atributos": [
-              {
-                "nombre": "aperaje",
-                "valores": [ "Selecciona","16amp","25amp","32amp", "40amp", "63amp"]
               }
             ]
           }

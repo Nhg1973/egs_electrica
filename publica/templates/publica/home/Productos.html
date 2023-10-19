@@ -37,7 +37,7 @@
               {% for categoria in categorias %}
                   {% for producto in categoria.productos %}
                       <div class="col-lg-4 col-md-6 portfolio-item filter-{{ categoria.nombre|slugify}}">
-                          <img src="{% static 'assets/img/productos/'|add:producto.imagen %}" class="img-fluid" alt="">
+                          <img src="{% static 'assets/img/productos/'|add:producto.imagen %}" class="img-fluid" alt="" style="width: 300px; height: 400px;">
                           <div class="portfolio-info">
                               <h4>{{ producto.nombre }}</h4>
                               <p>{{ producto.descripcion }}</p>
